@@ -9,7 +9,7 @@ public class Miscs {
 	    do {
 	    	last = val;
 	    	val =(val + x/val) / 2;
-	    }while(Math.abs(val-last) > eps);
+	    } while(Math.abs(val-last) > eps);
 	    return val;
 	}
 }

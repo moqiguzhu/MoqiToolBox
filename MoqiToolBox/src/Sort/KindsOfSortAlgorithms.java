@@ -2,7 +2,7 @@ package Sort;
 
 import java.util.Arrays;
 
-public class KindsOfSortAlgorithms {
+public class KindsOfSortAlgorithms<E> {
 	//!!!泛型
 	//普通的快排
 	public void quicksort(int[] array) {
@@ -49,6 +49,12 @@ public class KindsOfSortAlgorithms {
 		}
 		
 		return right;
+	}
+	
+	//原址排序，返回index信息
+	//泛型函数
+	public void quickSort() {
+		
 	}
 	
 	public static void main(String[] args) {

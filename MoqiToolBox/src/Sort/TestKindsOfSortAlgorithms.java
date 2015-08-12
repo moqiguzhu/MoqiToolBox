@@ -18,7 +18,7 @@ public class TestKindsOfSortAlgorithms {
 				test[j] = random.nextInt();
 			}
 			int[] actual = Arrays.copyOf(test, test.length);
-			sortAlgorithms.quicksort(actual);
+			//!!! test
 			int[] expected = Arrays.copyOf(test, test.length);
 			Arrays.sort(expected);
 			org.junit.Assert.assertArrayEquals(i + "th example failed!", expected, actual);

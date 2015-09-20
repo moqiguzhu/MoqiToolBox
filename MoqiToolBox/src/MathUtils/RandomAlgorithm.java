@@ -27,7 +27,7 @@ public class RandomAlgorithm {
 	
 	public static void main(String[] args) {
 		RandomAlgorithm ra = new RandomAlgorithm();
-		int[] test = {1,2,3,4,5};
+		int[] test = {1,2,3,4,5,6};
 		System.out.println(Arrays.toString(ra.RandomizeInPlace(test)));
 	}
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

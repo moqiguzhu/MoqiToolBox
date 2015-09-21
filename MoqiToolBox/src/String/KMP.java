@@ -61,10 +61,16 @@ public class KMP {
     
     String target2 = "aaaaa";
     String pattern2 = "a";
+    
+    String target3 = "aabcde";
+    String pattern3 = "abcd";
 
     kmp.solveKMP(target1, pattern1);
     System.out.println();
     
     kmp.solveKMP(target2, pattern2);
+    System.out.println();
+    
+    kmp.solveKMP(target3, pattern3);
   }
 }

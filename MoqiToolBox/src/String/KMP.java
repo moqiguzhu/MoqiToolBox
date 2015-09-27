@@ -56,6 +56,7 @@ public class KMP {
   // test this class
   public static void main(String[] args) {
     KMP kmp = new KMP();
+    
     String target1 = "ababacb";
     String pattern1 = "ab";
     
